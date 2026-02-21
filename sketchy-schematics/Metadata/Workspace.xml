@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{6e533959-e621-4fef-b1ea-8b5280cae650}">
 		<property name="builtBanksOutputDirectory">
-			<value>Build</value>
+			<value>../../sketchy_schematics/Assets/FMOD ASSETS</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{d3e0f978-8cfc-4c10-9e3e-3c8dc39aeeef}</destination>
