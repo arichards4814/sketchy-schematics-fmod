@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{95406cc1-483f-4b73-9914-59310e0a8898}">
+		<property name="assetPath">
+			<value>snap.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.76800000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{82f59267-0911-4f8b-923f-20601fbdffc3}</destination>
+		</relationship>
+	</object>
+</objects>

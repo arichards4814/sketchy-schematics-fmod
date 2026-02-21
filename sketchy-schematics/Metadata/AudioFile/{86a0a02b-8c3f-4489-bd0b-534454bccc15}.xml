@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{86a0a02b-8c3f-4489-bd0b-534454bccc15}">
+		<property name="assetPath">
+			<value>ss_pipobjectbreak.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4374791666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{82f59267-0911-4f8b-923f-20601fbdffc3}</destination>
+		</relationship>
+	</object>
+</objects>

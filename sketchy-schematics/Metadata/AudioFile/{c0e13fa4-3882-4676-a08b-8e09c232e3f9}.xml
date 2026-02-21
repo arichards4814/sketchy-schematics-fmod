@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c0e13fa4-3882-4676-a08b-8e09c232e3f9}">
+		<property name="assetPath">
+			<value>ss_piphit2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47299999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{82f59267-0911-4f8b-923f-20601fbdffc3}</destination>
+		</relationship>
+	</object>
+</objects>

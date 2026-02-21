@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0cb2e34c-0d29-4bf4-be12-0e61b6c60a05}">
+		<property name="assetPath">
+			<value>sword.aiff</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.72653061224489801</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{82f59267-0911-4f8b-923f-20601fbdffc3}</destination>
+		</relationship>
+	</object>
+</objects>

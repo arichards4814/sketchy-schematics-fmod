@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Workspace" id="{6e533959-e621-4fef-b1ea-8b5280cae650}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../Sketchy Schematics/Assets/FMOD ASSETS</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{d3e0f978-8cfc-4c10-9e3e-3c8dc39aeeef}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{70ca999d-f571-4c16-9bb1-ff70e461fcf1}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{61e73843-8e3f-4699-af99-160391d45a23}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{f581a0b5-2d37-45b5-9f4c-d674c2c631bd}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{fd45f5de-d8a1-4d28-a8eb-fe3186954a08}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{4b1e14d5-1d75-469a-ac82-c3ebc27e8847}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{82f59267-0911-4f8b-923f-20601fbdffc3}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{e81325ef-8de3-4c17-b7f9-b47bc947da3f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{73f1f7f4-5237-4752-94a8-51ca35830a4e}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{eca0ad9c-b0a1-46f8-826e-a9c68d575afe}</destination>
+			<destination>{36690f4d-4e13-4d2e-b42d-6f30a3a17de5}</destination>
+		</relationship>
+	</object>
+</objects>
