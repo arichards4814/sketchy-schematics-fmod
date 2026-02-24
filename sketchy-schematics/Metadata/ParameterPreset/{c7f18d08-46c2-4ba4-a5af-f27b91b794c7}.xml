@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c7f18d08-46c2-4ba4-a5af-f27b91b794c7}">
+		<property name="name">
+			<value>Splitter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f581a0b5-2d37-45b5-9f4c-d674c2c631bd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b398ff18-ff28-42d1-a9bf-d94299b9bf86}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b398ff18-ff28-42d1-a9bf-d94299b9bf86}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
