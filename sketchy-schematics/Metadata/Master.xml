@@ -4,6 +4,9 @@
 		<relationship name="automators">
 			<destination>{5c862705-e56c-4e44-9c4b-e544f9d3ac31}</destination>
 		</relationship>
+		<relationship name="masters">
+			<destination>{4f283195-6263-4287-ba2c-d901821e29b7}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{c8c722c2-7f62-48ca-9b39-eedfcfbce448}</destination>
 		</relationship>
@@ -18,9 +21,6 @@
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{3b036e45-e1c2-49c4-a1a3-82f0ec476556}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c8c722c2-7f62-48ca-9b39-eedfcfbce448}">
 		<relationship name="effects">
@@ -28,42 +28,5 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f9726715-0a85-45ba-a94b-32ff678d692e}" />
-	<object class="AutomationCurve" id="{3b036e45-e1c2-49c4-a1a3-82f0ec476556}">
-		<relationship name="parameter">
-			<destination>{e2e50968-5487-44aa-9bd1-d1b4c42b7a34}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{0774adcf-242c-42c4-8354-aa298f8b7a6c}</destination>
-			<destination>{c03b0726-121b-4866-a468-07c19359718a}</destination>
-			<destination>{266ab8c3-5fcc-4713-8fa7-cad3c2413f66}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{3bd1a73f-13b5-42b6-aabf-ee614635cea2}" />
-	<object class="AutomationPoint" id="{0774adcf-242c-42c4-8354-aa298f8b7a6c}">
-		<property name="position">
-			<value>0.17514124293785471</value>
-		</property>
-		<property name="value">
-			<value>-9.53674316e-07</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{c03b0726-121b-4866-a468-07c19359718a}">
-		<property name="position">
-			<value>-40</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.182096735</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{266ab8c3-5fcc-4713-8fa7-cad3c2413f66}">
-		<property name="position">
-			<value>11.926553672316388</value>
-		</property>
-		<property name="value">
-			<value>10</value>
-		</property>
-	</object>
 </objects>

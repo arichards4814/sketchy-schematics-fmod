@@ -7,6 +7,9 @@
 		<relationship name="automators">
 			<destination>{e6f6a4a6-a10f-4738-a4d8-f6e7070ee02e}</destination>
 		</relationship>
+		<relationship name="masters">
+			<destination>{d880745a-c27a-4169-aa28-3262eb94e7cb}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{38d7a7b8-39ef-4ccc-a4de-d749fc1dcc25}</destination>
 		</relationship>
@@ -21,9 +24,6 @@
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{27f2639a-48ee-498e-b95e-a1673131ccef}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{38d7a7b8-39ef-4ccc-a4de-d749fc1dcc25}">
 		<relationship name="effects">
@@ -31,42 +31,5 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ec98da3b-9733-46fd-a024-8e5926838fd4}" />
-	<object class="AutomationCurve" id="{27f2639a-48ee-498e-b95e-a1673131ccef}">
-		<relationship name="parameter">
-			<destination>{3a05c0f8-f595-4599-b80d-f248a5a33046}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{dfeee85a-47d4-4540-9eeb-fe2cc92cf17b}</destination>
-			<destination>{c286cddc-b87e-417a-a1be-f8070beec526}</destination>
-			<destination>{48dc4536-4d61-4ec0-b00e-92e3bf702bb0}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{d4bf5127-a949-42fb-91dc-d7294b7cd170}" />
-	<object class="AutomationPoint" id="{dfeee85a-47d4-4540-9eeb-fe2cc92cf17b}">
-		<property name="position">
-			<value>-0.11864406779660897</value>
-		</property>
-		<property name="value">
-			<value>-9.53674316e-07</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{c286cddc-b87e-417a-a1be-f8070beec526}">
-		<property name="position">
-			<value>-39.485875706214692</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.150196984</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{48dc4536-4d61-4ec0-b00e-92e3bf702bb0}">
-		<property name="position">
-			<value>12</value>
-		</property>
-		<property name="value">
-			<value>10</value>
-		</property>
-	</object>
 </objects>
